@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Typing_Master</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="typing.css">
+</head>
+  <body>
+     <div class="top">
+        <div class="front">
+            <h1>TEST YOUR TYPING SPEED</h1>
+           <div id="lTime" class="">
+            <p>TIME : </p>
+            <p id="timer" class="">60</p>
+          </div>
+            <p id="timerPara" class="">Starts counting when you start typing.</p>
+
+        </div>
+          <div id="back" class="hide">
+            <p class="word">WORDS PER MINUTE : </p><span id="wpm">0</span>
+          <div class="left">
+            <p>Characters:</p><span id="tChars">15</span>
+          </div>
+            <div class="right">
+                <p>Errors:</p><span id="errors">10</span>
+            </div>
+            <button type="button" id="sButton" onclick="reset()">Start Again</button>
+          </div>
+     </div>
+    <div class="bgcolor">
+        <div class="parabg">
+            <p id="para">
+                fly relate house expert charge interview itself because job consider knowledge color low late hope significant understand business home where entire tonight want heavy such sell way employee by civil hold executive become station successful enough task exactly reflect about fear let perform term always industry spend feeling play federal performance season major buy ability evidence treat wall true like project return popular whether inside especially say size fast really activity final use strategy maintain see add explain conference school line almost economy rise various claim range
+            </p>
+        </div>
+
+
+        <div class="result">
+            <p id="result"></p>
+        </div>
+
+        <div class="typingbg">
+            <textarea name="" id="typing" class="" cols="69" rows="9" onkeyup="count();start();"></textarea>
+        </div>
+
+          
+    </div>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="typing.js"></script>
+</body>
+</html>

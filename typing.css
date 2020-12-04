@@ -1,0 +1,122 @@
+body{
+    background-color: #d4edda;
+}
+
+.front{
+    position: relative;
+    text-align: center;
+    font-family: 'PT Serif', serif;
+}
+
+#timer{
+    font-size: 50px;
+    margin: 0%;
+}
+
+#back span{
+     font-size: 50px;
+}
+
+#timerPara{
+    opacity: .5;
+}
+
+#back{
+    position: relative;
+    text-align: center;
+    top: -130px;
+}
+
+.hide{
+    visibility: hidden;
+}
+
+#wpm{
+    font-size: 50px;
+    margin: 0%;
+}
+
+.right{
+    position: relative;
+    margin-left: 30%;
+    bottom: 110px;
+}
+.left{
+    position: relative;
+    top: 70%;
+    margin-right: 30%;
+}
+span{
+    margin: 0%;
+}
+
+.bgcolor{
+    background-color: white;
+    position: absolute;
+    margin: 0% 10%;
+    top: 60%;
+
+}
+
+#sButton{
+    position: absolute;
+    bottom: 110%;
+    right: 5%;
+    border-radius: 5px;
+    font-size: 100%;
+    font-family: 'PT Serif', serif;
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+
+}
+
+#para{
+    font-family: 'Satisfy', cursive;
+    font-size: 3vw;
+    opacity: .5;
+    min-width: 77.5vw;
+    padding: 0% 1%;
+
+}
+.parabg{
+    position: relative;
+}
+.typingbg{
+    background: transparent;
+    position: absolute;
+    top: 6%;
+    left: -.3%;
+}
+
+#typing{
+    padding: 0% 1%;
+    background: transparent;
+    font-family: 'Satisfy', cursive;
+    font-size: 3vw;
+    color: transparent;
+    min-width: 77.5vw;
+    border: none;
+    caret-color:black;
+
+}
+
+.result{
+    background: transparent;
+    position: absolute;
+    top: .1%;
+    /* box-shadow: 5px 5px 5px 1px red; */
+}
+
+#result{
+    padding: 0% 1%;
+    background: transparent;
+    font-family: 'Satisfy', cursive;
+    font-size: 3vw;
+    width: 77.5vw;
+    height: 39.5vw;
+    
+}
+textarea:focus{
+    outline: none;
+}
